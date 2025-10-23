@@ -1,0 +1,83 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+.hero-section {
+  padding: 100px 0;
+}
+.hero-img img {
+  width: 596px;
+  border-radius: 10px;
+}
+.about-section {
+  background: linear-gradient(70deg, #ffcc00, #fff5cb);
+}
+
+#paddingCard {
+  padding: 8%;
+  gap: 8%;
+}
+/* experience */
+.date {
+  border-right: 2px dashed #7a7a7a;
+  padding-bottom: 100px;
+  position: relative;
+}
+.date::before {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  background-color: white;
+  border: 2px dashed #7a7a7a;
+  top: -17px;
+  right: -17px;
+}
+.date::after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  border-radius: 50%;
+  top: -9px;
+  right: -9px;
+}
+.date.green::after{
+  background-color: #52ab70;
+}
+.date.red::after{
+  background-color: #F17676;
+}
+.date.yellow::after{
+  background-color: #FFD233;
+}
+
+.service-card {
+  transition: all 0.4s ease;
+  height: 100%;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.highlight-card {
+  transform: translateY(-25px);
+  transition: 0.4s;
+}
+
+@media (max-width: 768px) {
+  .highlight-card {
+    transform: none; /* mobile e sob same height hobe */
+  }
+}
+
+
+
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .custom-shadow {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
+  }
+}

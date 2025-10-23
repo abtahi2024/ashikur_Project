@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Potta+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.min.css" />
+    <!-- Bootstrap Icons CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="asset/style.css" />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-lg bg-white custom-shadow py-3 fixed-top">
+      <div class="container">
+        <!-- Logo / Brand -->
+        <a class="navbar-brand fw-bold fs-4" href="#">
+          ASHI<span class="text-warning">KUR</span>
+        </a>
+
+        <!-- Toggle for mobile -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <!-- Menu Items -->
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav align-items-center nav-underline">
+            <li class="nav-item">
+              <a class="nav-link active fw-semibold mx-2" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-semibold mx-2" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-semibold mx-2" href="#">Projests</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-semibold mx-2" href="#">Bloges</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-semibold mx-2" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero-section">
+      <div class="container">
+        <div class="row align-items-center flex-column-reverse flex-md-row">
+          <!-- Left Text -->
+          <div class="col-md-6 text-center text-md-start mt-4 mt-md-0">
+            <p class="mb-2 fs-5">
+              Hello, I'm <span class="fw-semibold">Arif Rahman</span> 👋
+            </p>
+            <h1 class="fw-bold display-5">UIUX and Graphic<br />Designer</h1>
+            <p class="text-muted mt-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+              mollitia, molestiae quas vel sint commodi repudiandae
+              consequuntur.
+            </p>
+
+            <div
+              class="mt-4 d-flex flex-column flex-sm-row justify-content-center justify-content-md-start gap-3"
+            >
+              <button
+                class="btn btn-warning text-white px-5 py-3 rounded-4 fw-bold"
+              >
+                Let's Talk<i class="fa-regular fa-paper-plane ps-2"></i>
+              </button>
+              <button class="btn btn-outline-dark px-5 py-3 rounded-4">
+                Download CV
+                <i class="fa-solid fa-cloud-arrow-down fs-5 ps-1"></i>
+              </button>
+            </div>
+
+            <div class="mt-4 text-center text-md-start">
+              <span class="fw-semibold">Follow me:</span>
+              <a href="#" class="ms-2 text-dark"
+                ><i class="bi bi-facebook fs-5"></i
+              ></a>
+              <a href="#" class="ms-2 text-dark"
+                ><i class="bi bi-instagram fs-5"></i
+              ></a>
+              <a href="#" class="ms-2 text-dark"
+                ><i class="bi bi-behance fs-5"></i
+              ></a>
+              <a href="#" class="ms-2 text-dark"
+                ><i class="bi bi-dribbble fs-5"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- Right Image -->
+          <div class="col-md-6 text-center hero-img mb-4 mb-md-0">
+            <img
+              src="/asset/images/Group 213.png"
+              alt="Designer Image"
+              class="img-fluid w-100 w-md-100"
+            />
+          </div>
+        </div>
+
+        <div class="text-center mt-4">
+          <i class="fa-solid fa-computer-mouse fs-2 fa-bounce"></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me -->
+    <section class="about-section">
+      <div class="container">
+        <div
+          class="row align-items-center flex-column-reverse flex-md-row justify-content-center"
+        >
+          <!-- Image -->
+          <div class="col-md-6 col-lg-5 text-center">
+            <img
+              src="asset/images/Group 198.png"
+              alt="About Image"
+              class="img-fluid"
+              style="width: 500px; height: auto"
+            />
+          </div>
+
+          <!-- Text -->
+          <div class="col-md-6 col-lg-5 text-center text-md-start mt-4 mt-md-0">
+            <h2 class="fw-bold">About Me</h2>
+            <p class="mt-3">
+              With 10 years experience as a professional Web developer, I have
+              acquired the skills and knowledge necessary to make your project a
+              success. I enjoy every step of the design process, from discussion
+              and collaboration.
+            </p>
+            <button class="btn btn-outline-dark mt-1 px-5 py-3 rounded-4">
+              See More
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Card  -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row justify-content-center g-4">
+          <!-- Card 1 -->
+          <div class="col-12 col-sm-6 col-lg-4 d-flex justify-content-center">
+            <div
+              class="card bg-body-tertiary shadow-lg p-4 rounded-4"
+              style="width: 100%; max-width: 350px; height: 367px"
+            >
+              <div class="card-body text-center">
+                <img src="asset/images/Frame.png" alt="" />
+                <h3 class="p-3 fw-semibold">High Quality</h3>
+                <p class="card-text lh-lg">
+                  Most common methods for designing websites that work well on
+                  desktop is responsive and adaptive design..
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="col-12 col-sm-6 col-lg-4 d-flex justify-content-center">
+            <div
+              class="card bg-body-tertiary shadow-lg p-4 rounded-4"
+              style="width: 100%; max-width: 350px; height: 367px"
+            >
+              <div class="card-body text-center">
+                <img src="asset/images/Frame (1).png" alt="" />
+                <h3 class="p-3 fw-semibold">Creative Design</h3>
+                <p class="card-text lh-lg">
+                  Most common methods for designing websites that work well on
+                  desktop is responsive and adaptive design..
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="col-12 col-sm-6 col-lg-4 d-flex justify-content-center">
+            <div
+              class="card bg-body-tertiary shadow-lg p-4 rounded-4"
+              style="width: 100%; max-width: 350px; height: 367px"
+            >
+              <div class="card-body text-center">
+                <img src="asset/images/Group 214.png" alt="" />
+                <h3 class="p-3 fw-semibold">Awesome Idea</h3>
+                <p class="card-text lh-lg">
+                  Most common methods for designing websites that work well on
+                  desktop is responsive and adaptive design..
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Branding -->
+    <section class="py-5">
+      <div class="container about-section rounded-5">
+        <div
+          class="d-flex flex-column-reverse flex-md-row justify-content-center align-items-center w-100"
+        >
+          <div class="w-100" style="padding-top: 5%">
+            <img
+              src="asset/images/Group 206.png"
+              alt=""
+              class="img-fluid card-body"
+            />
+          </div>
+
+          <div class="p-5 px-5 py-4">
+            <div style="padding-top: 82px">
+              <h1 class="fw-bold p-2">Branding</h1>
+              <p class="p-2 lh-lg">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
+                ornare id faucibus nunc fusce tellus scelerisque adipiscing
+                lorem. Mollis tortor, mattis urna imperdiet.
+              </p>
+              <div class="position-relative d-inline-block">
+                <button
+                  type="button"
+                  class="btn btn-outline-dark px-4 py-3 rounded-4"
+                  style="padding: 10%"
+                >
+                  See Project
+                </button>
+                <img
+                  src="asset/images/line_shape.png"
+                  alt=""
+                  class="position-absolute"
+                  style="right: -50%; bottom: 15%; transform: translateX(20%)"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- i help -->
+    <div class="container py-5" style="padding-top: 6%">
+      <!-- What Do I Help Section -->
+      <div class="row align-items-center flex-column-reverse flex-md-row">
+        <!-- Left Cards -->
+        <div
+          class="col-md-6 mt-4 mt-md-0 d-flex flex-column align-items-center align-items-md-start"
+        >
+          <!-- Card 1 -->
+          <div
+            class="card shadow-lg rounded-4 mb-3"
+            style="width: 100%; max-width: 380px"
+          >
+            <div class="d-flex gap-3 px-4 py-4">
+              <div
+                class="d-flex justify-content-center align-items-center"
+                style="
+                  background: #55852f;
+                  width: 50px;
+                  height: 50px;
+                  border-radius: 50%;
+                "
+              >
+                <i class="fa-solid fa-laptop fs-4 text-white"></i>
+              </div>
+              <p class="fw-bold mb-0">Website Design</p>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div
+            class="card shadow-lg rounded-4 mb-3"
+            style="width: 100%; max-width: 380px"
+          >
+            <div class="d-flex gap-3 px-4 py-4">
+              <div
+                class="d-flex justify-content-center align-items-center"
+                style="
+                  background: #fedc2a;
+                  width: 50px;
+                  height: 50px;
+                  border-radius: 50%;
+                "
+              >
+                <img src="asset/images/Vector.png" alt="" style="width: 22px" />
+              </div>
+              <p class="fw-bold mb-0">
+                Mobile App Design <br /><span class="fw-normal"
+                  >712 project</span
+                >
+              </p>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div
+            class="card shadow-lg rounded-4 mb-3"
+            style="width: 100%; max-width: 380px"
+          >
+            <div class="d-flex gap-3 px-4 py-4">
+              <div
+                class="d-flex justify-content-center align-items-center"
+                style="
+                  background: #ff8d3a;
+                  width: 50px;
+                  height: 50px;
+                  border-radius: 50%;
+                "
+              >
+                <img
+                  src="asset/images/Vector (1).png"
+                  alt=""
+                  style="width: 22px"
+                />
+              </div>
+              <p class="fw-bold mb-0">
+                Brand Identity <br /><span class="fw-normal">712 project</span>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Text -->
+        <div class="col-md-5 text-center text-md-end mt-5 mt-md-0">
+          <h1 class="fw-bold mb-3">What Do I Help?</h1>
+          <p class="lh-lg" style="max-width: 700px; text-align: justify">
+            I will help you with finding a solution and solve your problems. We
+            use process design to create digital products. Besides that, I also
+            help businesses grow and stand out in their field.
+          </p>
+
+          <div
+            class="d-flex justify-content-center justify-content-md-end gap-5 mt-4"
+          >
+            <div>
+              <p class="fs-2 fw-semibold mb-0">250+</p>
+              <span>Happy Clients</span>
+            </div>
+            <div>
+              <p class="fs-2 fw-semibold mb-0">150+</p>
+              <span>Projects Done</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Experience Section -->
+      <div class="py-5">
+        <h1 class="text-center fw-bold mb-5">My Work Experience</h1>
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-lg-3 date green">
+              <h4 class="fw-semibold">New Man Service</h4>
+              <p>Sep 2019 - Aug 2020</p>
+            </div>
+            <div class="col-8">
+              <h4 class="fw-semibold">Visual Designer</h4>
+              <p class="text-secondary lh-lg">
+                A Visual designer designs for a variety of platforms which may
+                include internet sites, games, movies, and wearables. In short,
+                they create the concept.
+              </p>
+            </div>
+          </div>
+
+          <div class="row justify-content-between">
+            <div class="col-lg-3 date red">
+              <h4 class="fw-semibold">New Man Service</h4>
+              <p>Sep 2019 - Aug 2020</p>
+            </div>
+            <div class="col-8">
+              <h4 class="fw-semibold">UI/UX Designer</h4>
+              <p class="text-secondary lh-lg">
+                A Visual designer designs for a variety of platforms which may
+                include internet sites, games, movies, and wearables. In short,
+                they create the concept.
+              </p>
+            </div>
+          </div>
+
+          <div class="row justify-content-between">
+            <div class="col-lg-3 mb date yellow">
+              <h4 class="fw-semibold">Global Solution</h4>
+              <p>Sep 2019 - Aug 2020</p>
+            </div>
+            <div class="col-8">
+              <h4 class="fw-semibold">Sr. Product Designer</h4>
+              <p class="text-secondary lh-lg">
+                A Visual designer designs for a variety of platforms which may
+                include internet sites, games, movies, and wearables. In short,
+                they create the concept.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- My Expert Areas -->
+      <div class="container py-5">
+        <div class="row align-items-center justify-content-between">
+          <!-- Left -->
+          <div class="col-lg-6 col-md-12 text-center text-md-start">
+            <h1 class="fw-bold mb-3">My Expert Areas</h1>
+            <p class="text-secondary lh-lg">
+              You can express yourself however you want and whenever you want,
+              for free. You can customize a template or make your own from
+              scratch, with an immersive library at your disposal.
+              <br /><br />
+              You can customize a template or make your own from scratch, with
+              an immersive library at your disposal.
+            </p>
+            <button
+              type="button"
+              class="btn btn-warning mt-3 rounded-4 px-4 py-3 text-white"
+            >
+              Download CV
+              <i class="fa-solid fa-cloud-arrow-down fs-5 ps-2"></i>
+            </button>
+          </div>
+
+          <!-- Right -->
+          <div class="col-lg-5 col-md-12 mt-5 mt-lg-0">
+            <div
+              class="d-flex justify-content-center justify-content-lg-between mb-5"
+            >
+              <button
+                type="button"
+                class="px-lg-5 py-3 rounded-4 btn btn-outline-dark"
+                style="font-size: large"
+              >
+                Skills
+              </button>
+              <button
+                type="button"
+                class="btn px-lg-5 py-3"
+                style="font-size: large"
+              >
+                Education
+              </button>
+            </div>
+
+            <!-- Progress Bars -->
+            <div class="mb-4">
+              <div class="d-flex justify-content-between mb-1">
+                <label class="fw-bold">Figma</label>
+                <span style="color: #f16500">85%</span>
+              </div>
+              <div class="progress" style="height: 10px">
+                <div
+                  class="progress-bar"
+                  style="width: 85%; background-color: #f16500"
+                ></div>
+              </div>
+            </div>
+
+            <div class="mb-4">
+              <div class="d-flex justify-content-between mb-1">
+                <label class="fw-bold">Photoshop</label>
+                <span style="color: #03249b">75%</span>
+              </div>
+              <div class="progress" style="height: 10px">
+                <div
+                  class="progress-bar"
+                  style="width: 75%; background-color: #03249b"
+                ></div>
+              </div>
+            </div>
+
+            <div class="mb-4">
+              <div class="d-flex justify-content-between mb-1">
+                <label class="fw-bold" style="color: #700d60">XD</label>
+                <span style="color: #700d60">80%</span>
+              </div>
+              <div class="progress" style="height: 10px">
+                <div
+                  class="progress-bar"
+                  style="width: 80%; background-color: #700d60"
+                ></div>
+              </div>
+            </div>
+
+            <div class="mb-4">
+              <div class="d-flex justify-content-between mb-1">
+                <label class="fw-bold" style="color: #234bda"
+                  >Illustrator</label
+                >
+                <span style="color: #234bda">70%</span>
+              </div>
+              <div class="progress" style="height: 10px">
+                <div
+                  class="progress-bar"
+                  style="width: 70%; background-color: #234bda"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sevices -->
+    <section id="services" style="background-color: #fff7d5">
+      <div class="text-center p-5">
+        <h1 class="fw-bold">My Services</h1>
+        <p style="color: #7a7a7a">
+          Most common methods for designing websites that work well on <br />
+          desktop is responsive and adaptive design.
+        </p>
+      </div>
+
+      <div class="d-flex justify-content-center flex-wrap gap-4 px-4 pb-5">
+        <!-- Card 1 -->
+        <div
+          class="card shadow-lg p-4 rounded-4 text-center service-card"
+          style="width: 350px; background-color: #ffffff"
+        >
+          <div class="card-body">
+            <img
+              src="asset/images/Group 199.png"
+              alt="Creative Design"
+              class="mb-3 img-fluid"
+              style="width: 80px"
+            />
+            <h3 class="fw-semibold mb-3">Creative Design</h3>
+            <p class="card-text lh-lg text-secondary">
+              Web design refers to the design of websites that are displayed on
+              the internet. It usually refers to the user experience aspects of
+              website development.
+            </p>
+          </div>
+        </div>
+
+        <!-- Card 2 (Highlighted) -->
+        <div
+          class="card shadow-lg p-4 rounded-4 text-center service-card highlight-card"
+          style="
+            width: 350px;
+            background: linear-gradient(to bottom, #ffcc00, #ffe476);
+          "
+        >
+          <div class="card-body">
+            <img
+              src="asset/images/Frame (2).png"
+              alt="UI/UX Design"
+              class="mb-3 img-fluid"
+              style="width: 80px"
+            />
+            <h3 class="fw-semibold mb-3">UI/UX Design</h3>
+            <p class="card-text lh-lg text-dark">
+              Web design refers to the design of websites that are displayed on
+              the internet. It usually refers to the user experience aspects of
+              website development.
+            </p>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div
+          class="card shadow-lg p-4 rounded-4 text-center service-card"
+          style="width: 350px; background-color: #ffffff"
+        >
+          <div class="card-body">
+            <img
+              src="asset/images/Frame (4).png"
+              alt="Web Design"
+              class="mb-3 img-fluid"
+              style="width: 80px"
+            />
+            <h3 class="fw-semibold mb-3">Web Design</h3>
+            <p class="card-text lh-lg text-secondary">
+              Web design refers to the design of websites that are displayed on
+              the internet. It usually refers to the user experience aspects of
+              website development.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- feedback -->
+    <section id="feedback" class="" style="padding-top: 10%">
+      <div class="container">
+        <!-- Title -->
+        <div class="text-start mb-5">
+          <h1 class="fw-semibold">Valuable Feedback From My Client</h1>
+          <p class="text-muted">
+            Most common methods for designing websites that work well on desktop
+            is
+            <br class="d-none d-md-block" />
+            responsive and adaptive design.
+          </p>
+        </div>
+
+        <!-- Feedback Content -->
+        <div
+          class="d-flex flex-column-reverse flex-md-row justify-content-between align-items-center"
+          style="gap: 5%"
+        >
+          <!-- Image -->
+
+          <div class="text-center">
+            <img
+              src="asset/images/Group 203.png"
+              alt="Client Feedback"
+              class="rounded-4"
+              style="max-width: 450px"
+            />
+          </div>
+
+          <!-- Text -->
+          <div class="flex-grow-1">
+            <p
+              class="lh-lg text-muted"
+              style="font-size: 18px; text-align: justify"
+            >
+              “Awesome website! Easy to use and edit, it has a lot of options to
+              design whatever you need, it is professional and fun. I was very
+              successful creating my profile using designer which gave me
+              unbelievable reach & appreciation.”
+            </p>
+            <h4 class="fw-bold">Albert Walkers</h4>
+            <p class="text-muted">Vivaco Group</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog -->
+    <section id="blog" class="py-5">
+      <div class="container">
+        <h1 class="text-end fw-bold mb-5">From My Blog Post</h1>
+
+        <div class="row gap-5">
+          <!-- Blog Item 1 -->
+          <div class="col-md-6 col-lg-5">
+            <div
+              class="d-flex flex-column flex-sm-row align-items-start gap-3 p-3"
+            >
+              <!-- Image -->
+              <div class="flex-shrink-0 text-center">
+                <img
+                  src="asset/images/7358641 1.png"
+                  alt="Blog 1"
+                  class="img-fluid rounded-4"
+                />
+              </div>
+              <!-- Text -->
+              <div>
+                <span class="text-muted small d-block mb-2">
+                  <i class="fa-regular fa-calendar-days me-2"></i> 02 June, 2022
+                  — John Smith
+                </span>
+                <p class="fw-semibold fs-5 mb-2">
+                  Diversification of digital marketing strategies
+                </p>
+                <a href="#" class="text-decoration-none text-dark fw-semibold">
+                  Read More
+                  <i class="fa-solid fa-arrow-up-right-from-square ms-1"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Blog Item 2 -->
+          <div class="col-md-6 col-lg-5">
+            <div
+              class="d-flex flex-column flex-sm-row align-items-start gap-3 p-3"
+            >
+              <div class="flex-shrink-0 text-center">
+                <img
+                  src="asset/images/Group 196.png"
+                  alt="Blog 2"
+                  class="img-fluid rounded-4"
+                />
+              </div>
+              <div>
+                <span class="text-muted small d-block mb-2">
+                  <i class="fa-regular fa-calendar-days me-2"></i> 02 June, 2022
+                  — John Smith
+                </span>
+                <p class="fw-semibold fs-5 mb-2">
+                  Diversification of digital marketing strategies
+                </p>
+                <a href="#" class="text-decoration-none text-dark fw-semibold">
+                  Read More
+                  <i class="fa-solid fa-arrow-up-right-from-square ms-1"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Blog Item 3 -->
+          <div class="col-md-6 col-lg-5">
+            <div
+              class="d-flex flex-column flex-sm-row align-items-start gap-3 p-3"
+            >
+              <div class="flex-shrink-0 text-center">
+                <img
+                  src="asset/images/Group 195.png"
+                  alt="Blog 3"
+                  class="img-fluid rounded-4"
+                />
+              </div>
+              <div>
+                <span class="text-muted small d-block mb-2">
+                  <i class="fa-regular fa-calendar-days me-2"></i> 02 June, 2022
+                  — John Smith
+                </span>
+                <p class="fw-semibold fs-5 mb-2">
+                  Diversification of digital marketing strategies
+                </p>
+                <a href="#" class="text-decoration-none text-dark fw-semibold">
+                  Read More
+                  <i class="fa-solid fa-arrow-up-right-from-square ms-1"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Blog Item 4 -->
+          <div class="col-md-6 col-lg-5">
+            <div
+              class="d-flex flex-column flex-sm-row align-items-start gap-3 p-3"
+            >
+              <div class="flex-shrink-0 text-center">
+                <img
+                  src="asset/images/Group 197.png"
+                  alt="Blog 4"
+                  class="img-fluid rounded-4"
+                />
+              </div>
+              <div>
+                <span class="text-muted small d-block mb-2">
+                  <i class="fa-regular fa-calendar-days me-2"></i> 02 June, 2022
+                  — John Smith
+                </span>
+                <p class="fw-semibold fs-5 mb-2">
+                  Diversification of digital marketing strategies
+                </p>
+                <a href="#" class="text-decoration-none text-dark fw-semibold">
+                  Read More
+                  <i class="fa-solid fa-arrow-up-right-from-square ms-1"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <div class="container my-5">
+      <div
+        class="newsletter d-flex flex-column flex-md-row justify-content-between align-items-center"
+        style="
+          background: linear-gradient(90deg, #ffcc00, #fff5cb);
+          border-radius: 20px;
+          color: #222;
+          padding: 6%;
+        "
+      >
+        <!-- Left Text -->
+        <div class="text-center text-md-start mb-4 mb-md-0">
+          <small style="font-size: 14px">Subscribe Now</small>
+          <h3 class="fw-bold mt-2 mb-1">Get My Newsletter</h3>
+          <p class="mb-0" style="font-size: 15px">
+            Get latest news, updates, tips and tricks in your inbox
+          </p>
+        </div>
+
+        <!-- Right Email Form -->
+        <form
+          class="d-flex mt-3 mt-md-0"
+          style="box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); border-radius: 10px"
+        >
+          <input
+            type="email"
+            class="form-control"
+            placeholder="Your email here"
+            required
+            style="
+              border: none;
+              border-radius: 8px 0 0 8px;
+              padding: 12px 18px;
+              width: 280px;
+            "
+          />
+          <button
+            type="submit"
+            class="btn"
+            style="
+              background: #ff4d4f;
+              color: #fff;
+              border-radius: 0 8px 8px 0;
+              padding: 12px 25px;
+              border: none;
+              font-weight: 500;
+            "
+          >
+            Send Now
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer style="background-color: #575757; color: white; padding: 80px 10%">
+      <div
+        class="d-flex flex-column flex-md-row justify-content-between align-items-start gap-4"
+      >
+        <!-- Branding -->
+        <div style="position: relative">
+          <h1 style="font-family: 'Potta One', system-ui" class="text-white">
+            ASHI<span style="color: #ffcc00">KUR</span>
+          </h1>
+          <p style="margin-top: 80px">
+            Call: <br />
+            +9984748473833
+          </p>
+        </div>
+
+        <!-- About -->
+        <div style="position: relative">
+          <h5
+            style="font-family: 'Poppins', sans-serif; font-weight: 700"
+            class="text-white"
+          >
+            Let's work together
+          </h5>
+          <p>
+            You can express yourself however you want and whenever you want, for
+            free. You can customize a template or make your own.
+          </p>
+          <p style="margin-top: 50px">
+            Email: <br />
+            dfsush@gmail.com
+          </p>
+        </div>
+
+        <!-- Button & Social -->
+        <div>
+          <a
+            href="#"
+            class="btn btn-warning px-4 py-3 text-white rounded-4 mb-4"
+          >
+            Lets talk <i class="fa-regular fa-paper-plane ps-2"></i>
+          </a>
+          <div>
+            <span>Follow me:</span>
+            <a href="#" class="ms-2 text-white"
+              ><i class="bi bi-facebook fs-5"></i
+            ></a>
+            <a href="#" class="ms-2 text-white"
+              ><i class="bi bi-instagram fs-5"></i
+            ></a>
+            <a href="#" class="ms-2 text-white"
+              ><i class="bi bi-behance fs-5"></i
+            ></a>
+            <a href="#" class="ms-2 text-white"
+              ><i class="bi bi-dribbble fs-5"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
